@@ -44,11 +44,12 @@ var createNewTaskElement=function(taskString){
   editInput.className = 'task input_text';
 
     editButton.innerText='Edit'; //innerText encodes special characters, HTML does not.
-    editButton.className='edit';
+    editButton.className='btn edit';
 
   deleteButton.className = 'btn delete';
-  deleteButtonImg.src = './remove.svg';
   deleteButtonImg.className = 'delete_img';
+  deleteButtonImg.src = './remove.svg';
+  deleteButtonImg.alt = 'remove button';
   deleteButton.appendChild(deleteButtonImg);
 
 
@@ -86,7 +87,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
+    var editInput=listItem.querySelector('.input_text');
     var label=listItem.querySelector('label');
     var editBtn=listItem.querySelector('.edit');
     var containsClass=listItem.classList.contains('editMode');
