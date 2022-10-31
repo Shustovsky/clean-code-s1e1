@@ -179,11 +179,11 @@
   display: none;
 }
 
-.editMode .input_text {
+.edit-mode .input_text {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .task_label {
+.edit-mode .task_label {
   display: none;
 }
