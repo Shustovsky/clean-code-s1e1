@@ -22,11 +22,9 @@
 }
 
 @media (max-width:768px) {
-
   .header {
     text-align: center;
   }
-  
 }
 
 .main {
@@ -82,6 +80,7 @@
   color: #3a3a3a;
 }
 
+
 /* Heading */
 
 .tittle,
@@ -112,6 +111,7 @@
   color: #333;
 }
 
+
 /* New Task */
 
 .adding_label {
@@ -119,9 +119,10 @@
   margin: 0 0 20px;
 }
 
-#new-task {
+#adding__input {
   width: 318px;
 }
+
 
 /* Task list */
 
@@ -163,12 +164,14 @@
   transform: rotateZ(0);
 }
 
+
 /* Completed */
 
 .completed .task_label {
   text-decoration: line-through;
   color: #888;
 }
+
 
 /* Edit Task */
 
